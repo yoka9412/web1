@@ -1,31 +1,61 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-<title>WEB1 - html</title>
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<title>샘플</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=aced3a5cdd11244c0a0ae3e839465fd4"></script>
+
+<frameset cols = "70%, *" frameborder = "0">
+     <frame src = "./map.html" marginheight = "1" marginwidth ="1" scrolling = "no">
+     <frame src = "./index1.html" marginheight ="1"  marginwidth="1" >
+</frameset>
+
+<style>
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+</style>
+
+<script src="https://use.fontawesome.com/926fe18a63.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>
+$(function(){
+	$(".headC").click(function(){
+		$(".headB").slideToggle();
+	});
+});
+</script>
+
+
+<style>
+.left-box {
+  float: left;
+  width: 70%;
+  height: 100vh;
+}
+.right-box {
+  float: right;
+  width: 30%;
+  height : 850px;
+}
+</style>
+
+
 </head>
-
-
 <body>
-  <h1> <a href="index.html">WEB</a></h1>
-<ol>
-  <li> <a href="1.html">html</a></li>
-  <li> <a href="2.html">css</a></li>
-  <li> <a href="3.html">javasecipt</a></li>
-</ol>
 
-<ul>
-  <li>eging</li>
-  <li>k8805</li>
-  <li>youbun</li>
-</ul>
-<h2>html</h2>
-<h1>HTML이란 무엇인가?</h1>
-
-<a href = "https://www.w3.org/TR/html51/" target="_blank"
- title="html5 speicification">Hypertext Markup Language (HTML)</a> is the standard markup languag
-
-
-<img src="coding.jpg" width="100%">
 </body>
 </html>
+
+
